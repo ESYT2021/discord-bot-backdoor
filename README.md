@@ -1,9 +1,10 @@
-**This is against discord's ToS I recommend you to use a ALT or you might get banned for using this bot**
+**This is against discord's ToS -- Use an ALT whilst using this bot**
 
 **Commands For the bot**
-1) $rape - will ban everyone off the server and will remove all the channels
-2) $h - will kick everyone off the server
-3) $dab - will give you admin into the server
+1) <back - will give roles to a specific server (roles editiable in 'bot1.py' on lines 53 and 54)
+2) <ka - will kick everyone off the server
+3) <l - will give you admin into the server
+4) <speak - will unserver mute you on any server of which the bot is added to
 
 **how to setup the bot**
 - Download Python 3.5.3 (https://www.python.org/downloads/release/python-353/) THIS WILL NOT WORK ON ANY OTHER VERSIONS!!
@@ -19,6 +20,6 @@
 - Open up your CMD Prompt
 - Type in **"cd desktop"**
 - Then type in **"py -3.5 [BOTNAME].py"**
-- Enjoy Nuking!
+- Enjoy!
 
 **IF YOU ALREADY HAD DISCORD.PY INSTALLED ON A DIFFERENT VERSION OF PYTHON, YOU GONNA HAVE TO RE-INTALL IT**
