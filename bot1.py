@@ -18,7 +18,7 @@ client.remove_command("help")
 
 @client.event
 async def on_ready():
-    print ("bot is now online")
+    print ("The discod bot is now alive! :)")
 
 @client.event
 async def on_server_join(server):
@@ -56,6 +56,13 @@ async def back(ctx):
     await user.add_roles(role1)
     print ("Ayo you're back :)")
 
+@client.command(pass_context=True)
+async def say(ctx, *, message):
+    try:
+        await ctx.send(message)
+    except:
+        await ctx.send("Dont play me for a fool, Type a messagae before sending thi command...")
+    
 @client.command(pass_context=True)
 async def speak(ctx):
     server = ctx.message.guild
