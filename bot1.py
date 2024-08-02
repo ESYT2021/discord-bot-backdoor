@@ -2,6 +2,8 @@
 #Bypass Bot for multiple use cases on DISCORD... Getting Admin, Bypassing server mute, Kicking all members and such...
 
 # '<ka for kick'  '<l for admin perms'  '<speak for unserver mute'  '<back for roles in "sexy server"' '<say to echo what you say'
+# TO CHNAGE THE COMMAND NAMES 'LINES 33, 44, 54, 72' REPLACE COMMAND WITH ANY VALUE OF YOUR CHOOSING
+# EG: LINE 33 - "async def ka(ctx):" (COMMAND IS <KA) CHANGE KA TO ANYTHING ELSE "async def ANYTHING(ctx):"
 
 import discord
 from discord.ext import commands
